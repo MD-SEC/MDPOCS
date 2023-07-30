@@ -85,7 +85,6 @@ def exp(host):
     except:
         print (host+":false")
 
-
 if __name__ == '__main__':
     file = sys.argv[1]
     data = open(file)
