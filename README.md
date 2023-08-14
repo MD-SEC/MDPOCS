@@ -10,6 +10,7 @@
 4. 泛微E-Mobile 6.0-6.6 前台RCE
 5. 金和 OA C6 GetSqlData.aspx SQL 注入漏洞导致RCE
 6. 企业微信API信息泄漏漏洞
+7. 蓝凌OA treexml.tmpl 远程命令执行漏洞
 
 公众号：猫蛋儿安全
 
