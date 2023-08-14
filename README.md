@@ -12,6 +12,7 @@
 6. 企业微信API信息泄漏漏洞
 7. 蓝凌OA treexml.tmpl 远程命令执行漏洞
 8. 蓝凌OA Custom.jsp任意文件读取漏洞
+9. 畅捷通T+ GetStoreWarehouseByStore RCE漏洞
 
 公众号：猫蛋儿安全
 
