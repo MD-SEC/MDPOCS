@@ -19,6 +19,7 @@
 13. 泛微E-Office Uploadify文件上传漏洞(CVE-2023-2648)
 14. 泛微E-Office OfficeServer 文件上传漏洞
 15. 宏景HCM codesettree SQL注入
+16. 用友时空 KSOA QueryService SQL注入漏洞
 
 公众号：猫蛋儿安全
 
