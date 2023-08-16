@@ -18,6 +18,7 @@
 12. 海康威视 Report 任意文件上传漏洞
 13. 泛微E-Office Uploadify文件上传漏洞(CVE-2023-2648)
 14. 泛微E-Office OfficeServer 文件上传漏洞
+15. 宏景HCM codesettree SQL注入
 
 公众号：猫蛋儿安全
 
