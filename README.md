@@ -16,6 +16,7 @@
 10. 金蝶云星空 Kingdee-erp-Unserialize-RCE漏洞
 11. nginxWebUI 远程命令执行漏洞
 12. 海康威视 Report 任意文件上传漏洞
+13. 泛微E-Office Uploadify文件上传漏洞(CVE-2023-2648)
 
 公众号：猫蛋儿安全
 
