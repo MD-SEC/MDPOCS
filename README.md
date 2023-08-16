@@ -5,7 +5,7 @@
 漏洞列表：
 
 1. Metabase 远程命令执行漏洞
-2. 海康威视安防平台任意文件上传漏洞
+2. 海康威视 ResourceOperations任意文件上传
 3. Openfire权限绕过漏洞
 4. 泛微E-Mobile 6.0-6.5 前台RCE
 5. 金和 OA C6 GetSqlData.aspx SQL 注入漏洞导致RCE
@@ -15,6 +15,7 @@
 9. 畅捷通T+ GetStoreWarehouseByStore RCE漏洞
 10. 金蝶云星空 Kingdee-erp-Unserialize-RCE漏洞
 11. nginxWebUI 远程命令执行漏洞
+12. 海康威视 Report 任意文件上传漏洞
 
 公众号：猫蛋儿安全
 
