@@ -20,6 +20,7 @@
 14. 泛微E-Office OfficeServer 文件上传漏洞
 15. 宏景HCM codesettree SQL注入
 16. 用友时空 KSOA QueryService SQL注入漏洞
+17. HIKVISION 视频编码设备接入网关 showFile.php 任意文件下载漏洞
 
 公众号：猫蛋儿安全
 
