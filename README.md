@@ -25,6 +25,7 @@
 19. 绿盟 SAS 堡垒机 local_user.php 任意用户登录漏洞
 20. 绿盟 SAS 堡垒机 Exec 远程命令执行漏洞//复现有ip访问限制自行修改payload
 21. PigCMS action_flashUpload 任意文件上传漏洞
+22. 锐捷 NBR 路由器 fileupload.php 任意文件上传
 
 公众号：猫蛋儿安全
 
