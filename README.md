@@ -21,6 +21,7 @@
 15. 宏景HCM codesettree SQL注入
 16. 用友时空 KSOA QueryService SQL注入漏洞
 17. HIKVISION 视频编码设备接入网关 showFile.php 任意文件下载漏洞
+18. 绿盟 SAS 堡垒机 GetFile 任意文件读取漏洞  //复现有ip访问限制
 
 公众号：猫蛋儿安全
 
