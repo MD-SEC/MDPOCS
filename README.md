@@ -23,6 +23,7 @@
 17. HIKVISION 视频编码设备接入网关 showFile.php 任意文件下载漏洞
 18. 绿盟 SAS 堡垒机 GetFile 任意文件读取漏洞  //复现有ip访问限制
 19. 绿盟 SAS 堡垒机 local_user.php 任意用户登录漏洞
+20. 绿盟 SAS 堡垒机 Exec 远程命令执行漏洞//复现有ip访问限制自行修改payload
 
 公众号：猫蛋儿安全
 
