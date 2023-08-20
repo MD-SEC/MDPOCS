@@ -27,6 +27,7 @@
 21. PigCMS action_flashUpload 任意文件上传漏洞
 22. 锐捷 NBR 路由器 fileupload.php 任意文件上传
 23. 网神 SecGate 3600 防火墙任意文件上传漏洞
+24. 企望制造ERP系统 comboxstore RCE漏洞
 
 公众号：猫蛋儿安全
 
