@@ -29,6 +29,7 @@
 23. 网神 SecGate 3600 防火墙任意文件上传漏洞
 24. 企望制造ERP系统 comboxstore RCE漏洞
 25. 任我行CRM TypeId SQL注入漏洞
+26. 大华智慧园区综合管理平台getFaceCapture SQL注入漏洞
 
 公众号：猫蛋儿安全
 
