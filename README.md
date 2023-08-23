@@ -30,6 +30,8 @@
 24. 企望制造ERP系统 comboxstore RCE漏洞
 25. 任我行CRM TypeId SQL注入漏洞
 26. 大华智慧园区综合管理平台getFaceCapture SQL注入漏洞
+27. 广联达OA GetIMDictionary 前台sql注入
+28. 广联达OA msgbroadcastuploadfile 后台文件上传
 
 公众号：猫蛋儿安全
 
