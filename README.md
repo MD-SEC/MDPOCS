@@ -32,6 +32,7 @@
 26. 大华智慧园区综合管理平台getFaceCapture SQL注入漏洞
 27. 广联达OA GetIMDictionary 前台sql注入
 28. 广联达OA msgbroadcastuploadfile 后台文件上传
+29. 红帆OA Ioffice Udfmr.asmx  SQL注入漏洞
 
 公众号：猫蛋儿安全
 
