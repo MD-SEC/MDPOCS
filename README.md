@@ -33,6 +33,7 @@
 27. 广联达OA GetIMDictionary 前台sql注入
 28. 广联达OA msgbroadcastuploadfile 后台文件上传
 29. 红帆OA Ioffice Udfmr.asmx  SQL注入漏洞
+30. VMware Aria Operations SSH硬编码 密钥爆破漏洞
 
 公众号：猫蛋儿安全
 
