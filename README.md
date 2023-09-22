@@ -34,6 +34,7 @@
 28. 广联达OA msgbroadcastuploadfile 后台文件上传
 29. 红帆OA Ioffice Udfmr.asmx  SQL注入漏洞
 30. VMware Aria Operations SSH硬编码 密钥爆破漏洞
+31. 锐捷Smartweb管理系统EXCU_SHELL信息泄露漏洞
 
 公众号：猫蛋儿安全
 
