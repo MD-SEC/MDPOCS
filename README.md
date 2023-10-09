@@ -36,6 +36,7 @@
 30. VMware Aria Operations SSH硬编码 密钥爆破漏洞
 31. 锐捷Smartweb管理系统EXCU_SHELL信息泄露漏洞
 32. 用友GRP-U8 bx_historyDataCheck.jsp SQL注入漏洞
+33. 视频监控汇聚平台EasyCVR用户信息泄漏漏洞
 
 公众号：猫蛋儿安全
 
