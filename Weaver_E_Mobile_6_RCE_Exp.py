@@ -51,6 +51,7 @@ def exp(host):
             return 0
             print (host+":false")
     except:
+        return 0
         print (host+"false")
 
 

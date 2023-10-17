@@ -38,6 +38,7 @@
 32. 用友GRP-U8 bx_historyDataCheck.jsp SQL注入漏洞
 33. 视频监控汇聚平台EasyCVR用户信息泄漏漏洞
 34. 金盘图书馆微信管理后台信息泄露漏洞
+35. 宏景HCM KhFieldtree接口SQL注入
 
 公众号：猫蛋儿安全
 

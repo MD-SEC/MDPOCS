@@ -49,7 +49,7 @@ def exp(host):
         #print(r.text)
         if "MAIN_URL_ROOT" in r.text :
             index=r.text.find("MAIN_URL_ROOT")
-            print("shell地址为"+url+r.text[index+13:])     
+            print("shell地址为"+url+"/cms/"+r.text[index+13:])     
         else:
             return 0
             print (host+":false")

