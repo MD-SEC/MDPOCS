@@ -43,6 +43,7 @@
 37. F5 BIG-IP 远程代码执行漏洞(CVE-2023-46747)
 38. XXL-JOB默认accessToken身份绕过 RCE
 39. IP-guard Webserver view 远程命令执行漏洞
+40. 用友 NC Cloud uploadChunk 任意文件上传漏洞
 
 公众号：猫蛋儿安全
 
