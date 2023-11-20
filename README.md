@@ -45,6 +45,7 @@
 39. IP-guard Webserver view 远程命令执行漏洞
 40. 用友 NC Cloud uploadChunk 任意文件上传漏洞
 41. 金蝶云星空ScpSupRegHandler任意文件上传
+42. ArrayVPN fshare_template 任意文件读取
 
 公众号：猫蛋儿安全
 
