@@ -46,6 +46,7 @@
 40. 用友 NC Cloud uploadChunk 任意文件上传漏洞
 41. 金蝶云星空ScpSupRegHandler任意文件上传
 42. ArrayVPN fshare_template 任意文件读取
+43. 金蝶 Apusic 应用服务器任意文件上传
 
 公众号：猫蛋儿安全
 
