@@ -10,7 +10,7 @@ import csv
 import urllib3
 import hashlib
 from concurrent.futures import ThreadPoolExecutor
-
+requests.packages.urllib3.disable_warnings()
 if len(sys.argv) != 2:
     print(
         '+----------------------------------------------------------------------------------------------------------+')

