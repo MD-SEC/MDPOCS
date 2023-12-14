@@ -42,7 +42,7 @@
 36. RichMail 企业邮箱敏感信息泄漏漏洞
 37. F5 BIG-IP 远程代码执行漏洞(CVE-2023-46747)
 38. XXL-JOB默认accessToken身份绕过 RCE
-39. IP-guard Webserver view 远程命令执行漏洞(已经删除)
+39. IP-guard Webserver view 远程命令执行漏洞
 40. 用友 NC Cloud uploadChunk 任意文件上传漏洞
 41. 金蝶云星空ScpSupRegHandler任意文件上传
 42. ArrayVPN fshare_template 任意文件读取
