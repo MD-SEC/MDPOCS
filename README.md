@@ -49,6 +49,7 @@
 43. 金蝶 Apusic 应用服务器任意文件上传
 44. 速达软件全系产品存在任意文件上传漏洞
 45. 思福迪运维安全管理系统 test_qrcode_b RCE漏洞
+46. JeecgBoot testConnection 远程命令执行漏洞
 
 公众号：猫蛋儿安全
 
