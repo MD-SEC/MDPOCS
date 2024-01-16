@@ -52,6 +52,7 @@
 46. 奥威亚视屏云平台任意文件下载漏洞
 47. Apache Ofbiz XML-RPC RCE
 48. 飞企互联-FE企业运营管理平台登录绕过漏洞
+49. Likeshop userFormImage 任意文件上传
 
 公众号：猫蛋儿安全
 
