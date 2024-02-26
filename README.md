@@ -54,6 +54,7 @@
 48. 飞企互联-FE企业运营管理平台登录绕过漏洞
 49. Likeshop userFormImage 任意文件上传
 50. Atlassian Confluence 远程代码执行漏洞(CVE-2023-22527)
+51. YouDianCMS友点系统存在任意文件上传漏洞
 
 公众号：猫蛋儿安全
 
