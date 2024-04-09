@@ -57,6 +57,7 @@
 51. YouDianCMS友点系统存在任意文件上传漏洞
 52. 用友U8-OA协同工作系统doUpload.jsp接口任意文件上传漏洞
 53. 大华 EIMS captureCommand 远程命令执行漏洞
+54. 用友NC Cloud importhttpscer接口存在任意文件上传漏洞
 
 公众号：猫蛋儿安全
 
